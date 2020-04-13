@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+<servlet>
+<servlet-name>adder-servlet</servlet-name>
+<servlet-class>adder</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>adder-servlet</servlet-name>
+<url-pattern>/adder</url-pattern>
+</servlet-mapping>
+
+</web-app>
