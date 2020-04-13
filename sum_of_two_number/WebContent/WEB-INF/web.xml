@@ -9,4 +9,26 @@
 <url-pattern>/adder</url-pattern>
 </servlet-mapping>
 
+
+<servlet>
+<servlet-name>bbs-post-servlet</servlet-name>
+<servlet-class>BBS_Post_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>bbs-post-servlet</servlet-name>
+<url-pattern>/bbs_post</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>pinfo-servlet</servlet-name>
+<servlet-class>pinfo_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>pinfo-servlet</servlet-name>
+<url-pattern>/pinfo-result</url-pattern>
+</servlet-mapping>
+
+
+
 </web-app>
